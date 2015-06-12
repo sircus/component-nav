@@ -1,0 +1,54 @@
+/*
+ * sircus-tools-layout-responsive
+ ================================================== */
+
+@media (--g-viewport-sm) {
+  .t-sm-blockCenter {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .t-sm-pullRight  { float: right !important; }
+  .t-sm-pullLeft   { float: left !important; }
+  .t-sm-pullNone   { float: none !important; }
+
+  .t-sm-static     { position: static !important; }
+  .t-sm-absolute   { position: absolute !important; }
+  .t-sm-fixed      { position: fixed !important; }
+  .t-sm-relative   { position: relative !important; }
+}
+
+@media (--g-viewport-md) {
+  .t-md-blockCenter {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .t-md-pullRight  { float: right !important; }
+  .t-md-pullLeft   { float: left !important; }
+  .t-md-pullNone   { float: none !important; }
+
+  .t-md-static     { position: static !important; }
+  .t-md-absolute   { position: absolute !important; }
+  .t-md-fixed      { position: fixed !important; }
+  .t-md-relative   { position: relative !important; }
+}
+
+@media (--g-viewport-lg) {
+  .t-lg-blockCenter {
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .t-lg-pullRight  { float: right !important; }
+  .t-lg-pullLeft   { float: left !important; }
+  .t-lg-pullNone   { float: none !important; }
+
+  .t-lg-static     { position: static !important; }
+  .t-lg-absolute   { position: absolute !important; }
+  .t-lg-fixed      { position: fixed !important; }
+  .t-lg-relative   { position: relative !important; }
+}
