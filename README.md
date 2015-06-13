@@ -36,7 +36,6 @@ input.scss
 > html
 
 ```html
-<div class="t-sm-blockCenter"></div>
 <div class="t-sm-pullRight"></div>
 <div class="t-sm-pullLeft"></div>
 <div class="t-sm-pullNone"></div>
@@ -44,8 +43,8 @@ input.scss
 <div class="t-sm-absolute"></div>
 <div class="t-sm-fixed"></div>
 <div class="t-sm-relative"></div>
+<div class="t-sm-center"></div>
 
-<div class="t-md-blockCenter"></div>
 <div class="t-md-pullRight"></div>
 <div class="t-md-pullLeft"></div>
 <div class="t-md-pullNone"></div>
@@ -53,8 +52,8 @@ input.scss
 <div class="t-md-absolute"></div>
 <div class="t-md-fixed"></div>
 <div class="t-md-relative"></div>
+<div class="t-md-center"></div>
 
-<div class="t-lg-blockCenter"></div>
 <div class="t-lg-pullRight"></div>
 <div class="t-lg-pullLeft"></div>
 <div class="t-lg-pullNone"></div>
@@ -62,6 +61,7 @@ input.scss
 <div class="t-lg-absolute"></div>
 <div class="t-lg-fixed"></div>
 <div class="t-lg-relative"></div>
+<div class="t-lg-center"></div>
 ```
 
 
