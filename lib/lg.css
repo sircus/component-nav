@@ -1,0 +1,20 @@
+/*
+ * sircus-tools-layout-responsive(lg)
+ ================================================== */
+
+@media (--g-viewport-lg) {
+  .t-lg-pullRight  { float: right !important; }
+  .t-lg-pullLeft   { float: left !important; }
+  .t-lg-pullNone   { float: none !important; }
+
+  .t-lg-static     { position: static !important; }
+  .t-lg-absolute   { position: absolute !important; }
+  .t-lg-fixed      { position: fixed !important; }
+  .t-lg-relative   { position: relative !important; }
+
+  .t-lg-center {
+    display: block;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}

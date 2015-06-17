@@ -5,33 +5,41 @@
 > A responsive layout tools Module of Sircus.
 
 ## Dependencies
-- [sircus-global-proprety](https://github.com/sircus/global-property)
+- [sircus-global-property](https://github.com/sircus/global-property)
 
 
 ## Installation
 
-> use npm:
+> npm:
 
 ```bash
-$ npm install sircus-tools-layout-responsive sircus-global-proprety
+$ npm install sircus-tools-layout-responsive sircus-global-property
 ```
 
 ## Usage
 
-> use cssnext:
+> cssnext:
 
 input.css
 ```css
 @import "sircus-tools-layout-responsive";
-@import "sircus-global-proprety";
+/*
+@import "sircus-tools-layout-responsive/lib/sm";
+@import "sircus-tools-layout-responsive/lib/md";
+@import "sircus-tools-layout-responsive/lib/lg";
+*/
+@import "sircus-global-property";
 ```
 
-> use sass:
+> sass:
 
 input.scss
-```css
-@import "node_modules/sircus-global-proprety/converted";
-@import "node_modules/sircus-tools-layout-responsive/converted";
+```scss
+@import "./node_modules/sircus-global-property/converted";
+@import "./node_modules/sircus-tools-layout-responsive/converted";
+// @import "./node_modules/sircus-tools-layout-responsive/scss/sm";
+// @import "./node_modules/sircus-tools-layout-responsive/scss/md";
+// @import "./node_modules/sircus-tools-layout-responsive/scss/lg";
 ```
 
 
