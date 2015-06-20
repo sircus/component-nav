@@ -1,8 +1,9 @@
+
 /*
  * sircus-tools-layout-responsive(sm)
  ================================================== */
 
-@media #{$g-viewport-sm} {
+@media (--g-viewport-sm) {
   .t-sm-pullRight  { float: right !important; }
   .t-sm-pullLeft   { float: left !important; }
   .t-sm-pullNone   { float: none !important; }

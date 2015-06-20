@@ -22,9 +22,9 @@ input.css
 ```css
 @import "sircus-tools-layout-responsive";
 /*
-@import "sircus-tools-layout-responsive/lib/sm";
-@import "sircus-tools-layout-responsive/lib/md";
-@import "sircus-tools-layout-responsive/lib/lg";
+@import "sircus-tools-layout-responsive/lib/sm-layout.css";
+@import "sircus-tools-layout-responsive/lib/md-layout.css";
+@import "sircus-tools-layout-responsive/lib/lg-layout.css";
 */
 @import "sircus-global-property";
 ```
@@ -35,9 +35,9 @@ input.scss
 ```scss
 @import "./node_modules/sircus-global-property/converted";
 @import "./node_modules/sircus-tools-layout-responsive/converted";
-// @import "./node_modules/sircus-tools-layout-responsive/scss/sm";
-// @import "./node_modules/sircus-tools-layout-responsive/scss/md";
-// @import "./node_modules/sircus-tools-layout-responsive/scss/lg";
+// @import "./node_modules/sircus-tools-layout-responsive/scss/sm-layout";
+// @import "./node_modules/sircus-tools-layout-responsive/scss/md-layout";
+// @import "./node_modules/sircus-tools-layout-responsive/scss/lg-layout";
 ```
 
 
