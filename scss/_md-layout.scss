@@ -1,21 +1,20 @@
-
 /*
  * sircus-tools-layout-responsive(md)
  ================================================== */
 
 @media #{$g-viewport-md} {
-  .t-md-pullRight  { float: right !important; }
-  .t-md-pullLeft   { float: left !important; }
-  .t-md-pullNone   { float: none !important; }
+  .t-md-pullRight  { float: right; }
+  .t-md-pullLeft   { float: left; }
+  .t-md-pullNone   { float: none; }
 
-  .t-md-static     { position: static !important; }
-  .t-md-absolute   { position: absolute !important; }
-  .t-md-fixed      { position: fixed !important; }
-  .t-md-relative   { position: relative !important; }
+  .t-md-static     { position: static; }
+  .t-md-absolute   { position: absolute; }
+  .t-md-fixed      { position: fixed; }
+  .t-md-relative   { position: relative; }
 
   .t-md-center {
     display: block;
-    margin-left: auto !important;
-    margin-right: auto !important;
+    margin-left: auto;
+    margin-right: auto;
   }
 }
